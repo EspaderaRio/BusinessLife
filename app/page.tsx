@@ -33,6 +33,7 @@ export default function DashboardPage() {
     <main className="p-6 grid gap-6 text-white">
       {/* 🔹 Include modal so it's still available for restart in the future */}
       <StartGameModal />
+      <PlayerProfilePanel />
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <DashboardCard title="Age" value={player.age} />
