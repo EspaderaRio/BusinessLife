@@ -1,4 +1,4 @@
-import { GameEvent } from '@/store/types';
+import { GameEvent } from '../store/types';
 import { Card } from './ui/Card';
 
 export default function EventLog({ events }: { events: GameEvent[] }) {

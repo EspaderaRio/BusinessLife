@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
-import { useGameStore } from '@/store/useGameStore';
-import { Player } from '@/store/types';
+import { useGameStore } from '../store/useGameStore';
+import { Player } from '../store/types';
 import { Modal } from './ui/Modal';
 import { Button } from './ui/Button';
 

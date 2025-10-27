@@ -1,4 +1,4 @@
-import { Business } from '@/store/types';
+import { Business } from '../store/types';
 import { Card } from './ui/Card';
 
 export default function BusinessList({ businesses }: { businesses: Business[] }) {

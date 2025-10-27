@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import { useGameStore } from '@/store/useGameStore';
+import { useGameStore } from '../../store/useGameStore';
 import { useState } from 'react';
 
 

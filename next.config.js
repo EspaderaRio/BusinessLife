@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // generate static files
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/BusinessLife', // your repo name
-  assetPrefix: '/BusinessLife/',
+  output: 'export', // ✅ enables static export for GitHub Pages
+  basePath: '/BusinessLife', // ✅ repo name (case-sensitive!)
+  images: { unoptimized: true }, // ✅ avoid Next image optimization issues
 };
 
 export default nextConfig;

@@ -1,12 +1,13 @@
 'use client';
-import StartGameModal from '@/components/StartGameModal';
-import { useGameStore } from '@/store/useGameStore';
-import StatBar from '@/components/StatBar';
-import BusinessList from '@/components/BusinessList';
-import InvestmentChart from '@/components/InvestmentChart';
-import EventLog from '@/components/EventLog';
-import DashboardCard from '@/components/DashboardCard';
-import { Button } from '@/components/ui/Button';
+import StartGameModal from '../components/StartGameModal';
+import { useGameStore } from '../store/useGameStore';
+import StatBar from '../components/StatBar';
+import BusinessList from '../components/BusinessList';
+import InvestmentChart from '../components/InvestmentChart';
+import EventLog from '../components/EventLog';
+import DashboardCard from '../components/DashboardCard';
+import { Button } from '../components/ui/Button';
+import PlayerProfilePanel from '../components/PlayerProfilePanel';
 
 export default function DashboardPage() {
   const { player, businesses, holdings, events, nextYear } = useGameStore();

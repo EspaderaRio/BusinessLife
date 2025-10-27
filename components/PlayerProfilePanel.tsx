@@ -1,6 +1,6 @@
 'use client';
-import { useGameStore } from '@/store/useGameStore';
-import { Card } from '@/components/ui/Card';
+import { useGameStore } from '../store/useGameStore';
+import { Card } from '../components/ui/Card';
 
 export default function PlayerProfilePanel() {
   const { player } = useGameStore();
